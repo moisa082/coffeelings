@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: none;
+}
+
+body {
+  padding: 0 20px;
+}
+body nav {
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+}
+body nav ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+body nav .themeMode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+}
+body section {
+  width: 100%;
+  height: calc(100vh - 100px);
+  margin-bottom: 20px;
+}
+body .sectHome {
+  display: flex;
+  flex-wrap: wrap;
+}
+body .sectHome .homeImg {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .sectHome .homeImg .containerImg {
+  width: 80%;
+  height: 80%;
+  background-color: grey;
+  border-radius: 20px;
+  overflow: hidden;
+}
+body .sectHome .homeImg .containerImg img {
+  width: 100%;
+  height: 100%;
+}
+body .sectHome .homeText {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+body .sectHome .homeText h1 {
+  font-size: 48px;
+  text-align: center;
+}
+body .sectHome .homeText .containerHomeSVG {
+  display: flex;
+  gap: 40px;
+}
+body .sectHome .homeText .containerHomeSVG .circleHomeSVG {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border-radius: 50%;
+  overflow: hidden;
+}
+body .sectHome .homeText .containerHomeSVG .circleHomeSVG img {
+  width: 100%;
+}
+body .sectAbout {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+}
+body .sectAbout .containerAbout {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+body .sectAbout .containerAbout .topCont {
+  width: 100%;
+  min-height: 100px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body .sectAbout .containerAbout .topCont p {
+  width: 60%;
+  display: flex;
+}
+body .sectAbout .containerAbout .containerSub {
+  display: flex;
+  gap: 1.5%;
+}
+body .sectAbout .containerAbout .containerSub .leftCont {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body .sectAbout .containerAbout .containerSub .leftCont p {
+  width: 80%;
+}
+body .sectAbout .containerAbout .containerSub .middleCont {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+body .sectAbout .containerAbout .containerSub .rightCont {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body .sectAbout .containerAbout .containerSub .rightCont p {
+  width: 80%;
+}
+body .sectProduct {
+  background-color: #262626;
+  transform: translate(0, -20px);
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  height: auto;
+}
+body .sectProduct .containerProduct {
+  width: 100%;
+  height: calc(100% - 40px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body .sectProduct .containerProduct .product {
+  width: 100%;
+  margin: 20px 0;
+  display: flex;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+body .sectProduct .containerProduct .product .imgProduct {
+  min-width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: white;
+  overflow: hidden;
+}
+body .sectProduct .containerProduct .product .imgProduct:hover {
+  scale: 1.03;
+}
+body .sectProduct .containerProduct .product .imgProduct img {
+  width: 100%;
+  height: 100%;
+}
+body .sectProduct .containerProduct .product .infoProduct h2 {
+  font-size: 22px;
+}
+body .sectProduct .containerProduct .product .infoProduct p {
+  text-align: justify;
+  font-weight: 100;
+}
+body .sectFeedback {
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+body .sectFeedback .feedbackContainer {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body .sectFeedback .feedbackContainer .cardFeedback {
+  min-width: 320px;
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+  padding: 20px;
+  border: solid grey 1px;
+}
+body footer {
+  width: calc(100% + 40px);
+  transform: translateX(-20px);
+  height: 250px;
+  background-color: #262626;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}/*# sourceMappingURL=index.css.map */
